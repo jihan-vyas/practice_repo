@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+    font: 1em sans-serif;
+}
+hr{
+   border : 1px solid black;
+}
+
+
+nav{
+    background-color: rgb(51, 173, 149);
+    color: black;
+    padding: 17px 20px;
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+     box-shadow: 0px,3px,20px rgba(0,0,0,0.1);
+    position: fixed; 
+    font-family: poppins,sans-serif;
+    width: 100%;
+}
+
+
+nav a{color: black;
+text-decoration: solid;
+margin: 0 15px;
+font-weight: bold;}
+
+nav a:hover{color: aliceblue;}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: poppins,serif;
+    display:block;
+    color: rgb(14, 10, 10);
+}
+
+    logo a:hover{
+        color: darkgray;
+    }
+    .icons{
+        display:flex ;
+        align-items: center;
+        margin-right: 25px;
+
+    }
+    .icons img{
+        width: 23px;
+        margin-left: 35px;
+    }
+    .pro
+    {margin-right:33px ;}
+
+    .nav2{
+        display: inline-block;
+        position: relative;
+    }
+
+a:-webkit-any link{cursor: pointer;}
+
+input[type="text"]{
+     padding : 10px;
+     border: none;
+     border-radius: 30px;
+     padding-left: 12px;
+    background-color:white;
+    }
+    .ser{
+        position: absolute;
+        top:50%;
+        left:151px;
+        transform: translateY(-50%);
+        color:#ffffff;
+        cursor:pointer;
+        width: 19px;
+    }
+    .coverimg img{
+        width:100%;
+        height: 800px;
+        margin-top: 70px;
+    }
+    .coverimg2 img{
+        width: 100%;
+        height: auto;
+
+    }
+    .Wall Decor{
+        color: crimson;
+        font-weight: bolder;
+        font-size: 35px;
+        text-align: center;
+    }
+    .cd{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+        padding: 20px;
+        
+       
+    }
+    .cd img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: black 20px 10px 10px;
+        
+    }
+    .tagline{
+        text-align: center;
+        font-size: 25px;
+    }
+    .tagline p{
+        margin: 0 0 5px 0;
+    }
+    .tagline h1{
+        margin: 10px 0 3px 0;
+        font-weight: bolder;
+        font-family: lucida sans,serif; 
+    }
+    .tagline button{
+        padding: 10px 20px 10px 20px;
+        margin: 5px 5px 15px 5px;
+        background-color: black;
+        color: aliceblue;
+        font-family: gill sans,serif;
+        border-radius: 25px;
+        border: none;
+        font-size: 18px;
+    }
+    .tagline button hover{
+        background-color: black;
+    }
+    .btm{
+        background-color: black;
+        color:white;
+        text-align: center;
+        padding: 10px;
+    }
+    .btm p{
+        font-size: 8px;
+    }
+    .c,h2{
+        font-size: 10px;
+    }
+    .ac{
+        text-align: justify;
+        margin: 10px;
+        padding: 10px;
+        display:flex;
+    }
+    .ac1{
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .ac2{
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .ac2 a{
+        color: blue;
+    }
+
+
+
+
+        
+
+
+        
+
+        
+
+    
+
+
+
+        
+
